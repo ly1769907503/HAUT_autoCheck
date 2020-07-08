@@ -7,7 +7,9 @@
 * 每天定时打卡（默认早上7点）
 ## 使用方法 
 **1. [Fork](https://github.com/YooKing/HAUT_autoCheck/fork)此项目**  
-**2. 进入你的 fork 的仓库，`Settings → Secrets`，按上下面表格添加12个 Secret:**
+**2. 进入你的 fork 的仓库，`Settings → Secrets`,**  
+![](/img/secret.png)
+**按下面表格添加12个 Secret:**  
 
 <div align=center>
 
@@ -32,7 +34,10 @@
     schedule:
     - cron: 0 23 * * * 
 ```
-此时间为国际时间，+8 可推算出北京时间07点，表示每天早上7点运行一次，建议只修改`23`其余不动，要留有空格。
+此时间为国际时间，+8 可推算出北京时间07点，表示每天早上7点运行一次，建议只修改`23`其余不动，要留有空格。  
+**4. 检查结果**  
+下图中`run`为服务器反馈结果
+![](/img/result.png)  
 
 ## 未完待续
 * 可以利用微信通知每次打卡，后续添加
