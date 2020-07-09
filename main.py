@@ -165,8 +165,7 @@ json =  {
 response = requests.post(sign_url, json=json)
 print(response.text)
 
-if __name__ == '__main__':
-    sckey = os.environ["URL"]
+sckey = input()
 title = "打卡结果通知"
 content = response.text
 data = {

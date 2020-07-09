@@ -40,4 +40,5 @@ jobs:
         ${{secrets.PERSONNUM}}
         ${{secrets.HOME}}
         ${{secrets.LOCAL}}
+        ${{secrets.URL}}
         EOF

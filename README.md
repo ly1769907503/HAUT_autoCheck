@@ -9,7 +9,7 @@
 **1. [Fork](https://github.com/YooKing/HAUT_autoCheck/fork)此项目**  
 **2. 进入你的 fork 的仓库，`Settings → Secrets`,**  
 ![](/img/secret.png)
-**按下面表格添加12个 Secret:**  
+按下面表格添加12个 Secret:
 
 <div align=center>
 
@@ -27,7 +27,9 @@
 |PERSONNUM|身份证号|
 |HOME|详细住址 `xx路xx号xx小区`|
 |LOCAL|如`河南省-郑州市-中牟县`尽量有连字符
-</div>
+</div>  
+
+进一步打`main.py`找到`sex = "男"`更改性别
 
 **3. 打开本项目 `workflows/clock.yml` 文件，找到**
 ```
@@ -39,8 +41,11 @@
 下图中`run`为服务器反馈结果
 ![](/img/result.png)  
 
-## 未完待续
-* 可以利用微信通知每次打卡，后续添加
+## 额外功能
+* [微信通知](https://github.com/YooKing/HAUT_autoCheck/wiki#wechat)  
+微信推送每次打卡结果。
+* ...
+
 
 ## 许可
 
