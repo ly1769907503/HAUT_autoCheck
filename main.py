@@ -2,6 +2,7 @@ import time
 import json
 import requests
 import random
+import os
 
 #sectets字段录入
 deptId = eval(input())
@@ -164,7 +165,8 @@ json =  {
 response = requests.post(sign_url, json=json)
 print(response.text)
 
-sckey = {{secrets.URL}}
+if __name__ == '__main__':
+    sckey = os.environ["URL"]
 title = "打卡结果通知"
 content = response.text
 data = {
