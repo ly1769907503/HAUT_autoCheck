@@ -164,3 +164,11 @@ json =  {
 response = requests.post(sign_url, json=json)
 print(response.text)
 
+sckey = {{secrets.USERID}}
+title = "打卡结果通知"
+content = response.text
+data = {
+"text":title,
+"desp":content
+}
+req = requests.post(sckey,data = data)
