@@ -5,6 +5,8 @@
 **河南工业大学完美校园健康打卡**
 * 随机温度(36.2℃-36.8℃)
 * 每天定时打卡（默认早上7点）
+* 微信通知打卡结果(可选)
+
 ## 使用方法 
 **1. [Fork](https://github.com/YooKing/HAUT_autoCheck/fork)此项目**  
 **2. 进入你的 fork 的仓库，`Settings → Secrets`,**  
