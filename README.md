@@ -34,8 +34,8 @@
 
 3. 进一步打开`main.py`找到`sex = "男"`更改性别
 
-4. 创建Action  
-点`New workflow`,将本项目 `workflows/clock.yml` 文件内容复制到你的文件，  
+4. 开启Action  
+有点懒...自行解决。
 
 计划时间修改，  
 ```
