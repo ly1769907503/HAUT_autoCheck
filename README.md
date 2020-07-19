@@ -34,7 +34,10 @@
 
 3. 进一步打开`main.py`找到`sex = "男"`更改性别
 
-4. 打开本项目 `workflows/clock.yml` 文件，找到   
+4. 创建Action  
+点`New workflow`,将本项目 `workflows/clock.yml` 文件内容复制到你的文件，  
+
+计划时间修改，  
 ```
     schedule:
     - cron: 0 23 * * * 
